@@ -5,8 +5,8 @@
 
 int main() {
     char s[100];
-    char small[100];
-    char big[100];
+    char small[100] = {};
+    char big[100] = {};
     char maxSymbol;
     int symbols[256];
     int maxsymb = 0;
